@@ -47,10 +47,10 @@ python main.py <URL> [--pasta PASTA]
 
 ```bash
 # Salva na pasta padrão ./pdfs
-python academic_to_pdf_playwright.py https://blackboard.minhafaculdade.com
+python main.py https://blackboard.minhafaculdade.com
 
 # Salva em pasta personalizada
-python academic_to_pdf_playwright.py https://blackboard.minhafaculdade.com --pasta "D:/Faculdade/Aulas"
+python main.py https://blackboard.minhafaculdade.com --pasta "D:/Faculdade/Aulas"
 ```
 
 ---
@@ -108,7 +108,7 @@ O que sobra é só o **conteúdo textual** da página: títulos, parágrafos, li
 
 ```
 academic-to-pdf/
-├── academic_to_pdf_playwright.py   # Script principal
+├── main.py   # Script principal
 ├── .gitignore
 └── README.md
 ```
