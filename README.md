@@ -35,7 +35,7 @@ python -m playwright install chromium
 ## Uso
 
 ```bash
-python academic_to_pdf_playwright.py <URL> [--pasta PASTA]
+python main.py <URL> [--pasta PASTA]
 ```
 
 | Argumento | Descrição | Padrão |
